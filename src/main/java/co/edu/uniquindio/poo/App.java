@@ -62,7 +62,7 @@ class Biblioteca {
         System.out.println(nombresLibros);
     }
 
-    public boolean agregarLibro(Libro libro) {
+    public boolean agregarLibro(LibroImpreso libro) {
         if (!nombresLibros.contains(libro.getNombreLibro())) {
             nombresLibros.add(libro.getNombreLibro());
             System.out.println("El libro ha sido agregado exitosamente.");
@@ -72,8 +72,8 @@ class Biblioteca {
             return false;
         }
     }
-    Libro libroA = new Libro("La divina comedia","1472","Dante Aleghieri");
-    Libro libroB = new Libro("El Resplandor","1977","Stephen King");
+    LibroImpreso libroA = new LibroImpreso("La divina comedia","1472","Dante Aleghieri","Grupo Planeta");
+    LibroImpreso libroB = new LibroImpreso("El Resplandor","1977","Stephen King","Grupo Planeta");
         
 
 

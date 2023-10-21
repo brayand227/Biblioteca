@@ -4,6 +4,8 @@ package co.edu.uniquindio.poo;
 public class AppTest 
 {
 
+    
+
     public static void main(String[] args) {
         // Crear una instancia de la clase Biblioteca
         Biblioteca miBiblioteca = new Biblioteca("Biblioteca Central", "Calle Principal 123", 10000, "15 de agosto de 1990");
@@ -17,8 +19,7 @@ public class AppTest
         System.out.println("----------");
         String nombreMasLibros=hallarMasLibros(miBiblioteca, bibliotecaBrayan);
         System.out.println(nombreMasLibros);
-        /**Libro libroA = new Libro("La divina comedia","1472","Dante Aleghieri");
-        System.out.println(Biblioteca.agregarLibro(libroA));**/
+        
     }
 
 
@@ -41,6 +42,8 @@ public class AppTest
             return nombreMasLibros;
         }
         return nombreMasLibros;
+
+        
     }
 
     
